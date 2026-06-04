@@ -5,14 +5,14 @@ concept drift detection with dynamic client weighting during aggregation.
 
 ## Key Result
 AdaptiveFL maintains **97.8% accuracy** under 60% client drift, compared to 
-**93.1% for standard FedAvg** — a 4.7 percentage point improvement.
+**93.1% for standard FedAvg** ï¿½ a 4.7 percentage point improvement.
 
 ## Project Structure
-- src/client/     — FL client with ADWIN drift detector
-- src/server/     — Weighted FedAvg aggregation server
-- src/data/       — MNIST loader and drift simulator
-- experiments/    — 4 experiment scripts
-- results/        — Generated plots and CSV results
+- src/client/     ï¿½ FL client with ADWIN drift detector
+- src/server/     ï¿½ Weighted FedAvg aggregation server
+- src/data/       ï¿½ MNIST loader and drift simulator
+- experiments/    ï¿½ 4 experiment scripts
+- results/        ï¿½ Generated plots and CSV results
 
 ## Setup
 pip install torch torchvision numpy matplotlib pandas scikit-learn river tqdm
@@ -28,4 +28,12 @@ Published as IEEE conference paper.
 Full paper available in the repository.
 
 ## Author
-Atharv Dorle — SRM Institute of Science and Technology
+Atharv Dorle ï¿½ SRM Institute of Science and Technology
+
+## Preprint
+EasyChair Preprint #52853 â€” under review, link live within 48 hours.
+https://easychair.org/publications/preprint/52853
+
+## Paper
+Atharv Dorle, "Adaptive Federated Learning with Concept Drift Detection
+Using ADWIN-Based Dynamic Client Weighting," EasyChair Preprint, June 2026.
